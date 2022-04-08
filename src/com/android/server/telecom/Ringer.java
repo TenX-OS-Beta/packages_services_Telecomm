@@ -122,7 +122,7 @@ public class Ringer {
         0, // No delay before starting
         500, // How long to vibrate
         200, // Delay
-        70, // How long to vibrate
+        100, // How long to vibrate
         720, // How long to wait before vibrating again
     };
 
@@ -138,9 +138,9 @@ public class Ringer {
 
     private static final long[] DA_DA_DZZZ_VIBRATION_PATTERN = {
         0, // No delay before starting
-        70, // How long to vibrate
+        100, // How long to vibrate
         80, // Delay
-        70, // How long to vibrate
+        100, // How long to vibrate
         180, // Delay
         600,  // How long to vibrate
         1050, // How long to wait before vibrating again
@@ -148,11 +148,11 @@ public class Ringer {
 
     private static final long[] DA_DZZZ_DA_VIBRATION_PATTERN = {
         0, // No delay before starting
-        80, // How long to vibrate
+        100, // How long to vibrate
         200, // Delay
         600, // How long to vibrate
         150, // Delay
-        60,  // How long to vibrate
+        100,  // How long to vibrate
         1050, // How long to wait before vibrating again
     };
 
